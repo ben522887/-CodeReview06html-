@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>營收查詢</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            border-spacing: 0;
+            margin: 30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th, td{
+            padding: 10px 20px;
+            border: 1px solid #000;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="color.css" />
+</head>
+<body>
+    <div style="text-align:center;"><h1 id = "h1">查詢營收</h1>
+        <form action="http://127.0.0.1:5500/basicInformation.html">
+            <input type="text" id = "txt1" name = "text1">
+            <button type="button" id ="btn1">查詢</button>
+            <button type = "submit">基本資料</button>
+        </form>
+    </div>
+    <script src="selectData.js"></script>
+</body>
+</html>

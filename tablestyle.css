@@ -1,0 +1,15 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.title{
+    width:15%;
+    background-color: rgb(201, 243, 62);
+}
+.info{
+    width:35%;
+}

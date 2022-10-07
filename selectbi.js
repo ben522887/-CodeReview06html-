@@ -26,7 +26,7 @@ $.ajax({
 })
 let addinformation = function(data){
     sessionStorage.setItem(`${symbolID}`,data);
-    $("#h1").text(`${data[0]["symbolId"]}-${data[0]["comname"]}`);
+    $("#h1").text(`${data[0]["symbolId"]}-${data[0]["comName"]}`);
     $("#td1").text(data[0]["comName"]);
     $("#td2").text(data[0]["engAdd"]);
     $("#td3").text(data[0]["estab"]); 
@@ -43,7 +43,7 @@ let addinformation = function(data){
     $("#td14").text(data[0]["actsp"]);
     $("#td15").text(data[0]["tephsw"]);
     $("#td16").text(data[0]["fxn"]);
-    $("#td17").attr(href,data[0]["cWebsite"]).text(data[0]["cwebsite"]);
+    $("#td17").text(data[0]["cWebsite"]);
     $("#td18").text(data[0]["email"]);
     $("#td19").text(data[0]["sa"]);
     $("#td20").text(data[0]["va"]);
